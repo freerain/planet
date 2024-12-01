@@ -1,0 +1,144 @@
+/* Фоновое изображение */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
+}
+
+/* Основной блок */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.solar-system {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Факты */
+.facts {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facts li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #004080;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.facts li:hover {
+    transform: scale(1.05);
+    background-color: #0066cc;
+}
+
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0066cc;
+}
+
+.navigation li {
+    margin: 0 10px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navigation a:hover {
+    background-color: #004080;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #004080;
+    color: white;
+   
+    bottom: 0;
+    width: 100%;
+}
+
+
+.planet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.planet-table th, .planet-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.planet-table th {
+    background-color: #0066cc;
+    color: white;
+}
+
+/* Анимация при наведении */
+.navigation a {
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: #0055aa;
+}
+
+/* Кнопки */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004080;
+}
